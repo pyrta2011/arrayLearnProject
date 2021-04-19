@@ -1,3 +1,5 @@
+/*Изучение массивов, цикла for и срезов*/
+
 package main
 
 import (
@@ -5,11 +7,10 @@ import (
 )
 
 func main() {
-	var todoList = [4]string {
+	var todoList = [3]string {
 		"Изучаем массивы",
 		"Изучить срезы",
 		"Изучить цикл for",
-		"Добавить изменения в Git",
 	}
 
 	for index, item := range todoList {
